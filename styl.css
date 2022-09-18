@@ -1,0 +1,45 @@
+p{
+    background: rgba(57, 57, 59, 0.192);
+    color: black;
+    text-shadow: 1px 1px 0px rgb(54, 8, 207);
+    /* yea jo text shadoow haii text mai shadwo ajata haii
+    or jo phla px hai wo left right ky lyea haai 
+    or yesjo dosra haii woo hum use krtay hai vertical or horizontal ky lyea
+    or yea jo 3 haii wo use krtay hai shado ko kitna dark krna haii 
+    or yea 4 haii wo use hota haii bg clour show ka kyea hoga  */
+    text-align: center;
+
+}
+
+.first:first-letter{
+    background-color: bisque;
+    /* yea firt leter mai changing krny ky lyea use hota haiii */
+}
+.second:first-line{
+    background: #000;
+/* yea hum use krtay haiii pragraf ki first line ko target krny ky lyea  */
+}
+#third:link{
+    text-align: center;
+    color: red;
+    text-decoration: none;
+}
+/* yea jo link hum ny use kyea hia yea link ka clour chnage krta link  */
+#third:visited{
+    color: rgb(6, 187, 66);
+}
+/* or yea jo visited hai n ayea hum link visited kr chukay haii usk aclour change kr dyeta hai */
+input:hover{
+    background-color: blue;
+}
+/* yea hover background coulour change kr dyeta haii jab us py select hota haii */
+input:focus{
+    background-color: red;
+}
+/* yea hum kha bhe lagyee na tu yea click krny py uka background clour chgange hojta haii es sy  */
+
+button:active{
+    background-color: gold;
+    
+}
+/* es sy click krny py clour change kr dyeeta haii */
